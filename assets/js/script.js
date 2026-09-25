@@ -253,8 +253,8 @@
     const transitionEnd = aboutStart - scrollPadding;
     const transitionLength = Math.max(1, transitionEnd - transitionStart);
     const progress = Math.min(1, Math.max(0, (pageY - transitionStart) / transitionLength));
-    const surface = mixColor([243, 240, 232], [8, 56, 47], progress);
-    const ink = mixColor([8, 56, 47], [216, 212, 203], progress);
+    const surface = mixColor([243, 240, 232], [29, 51, 57], progress);
+    const ink = mixColor([29, 51, 57], [216, 212, 203], progress);
 
     themeSections.forEach((section) => {
       section.style.setProperty('--section-surface', surface);

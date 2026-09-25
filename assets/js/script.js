@@ -332,7 +332,7 @@
   const applyProjectPalette = (trigger) => {
     const style = getComputedStyle(trigger);
     const background = style.getPropertyValue('--card-paper').trim() || surfaceColor(trigger);
-    const ink = style.getPropertyValue('--card-ink').trim() || style.color || '#08382F';
+    const ink = style.getPropertyValue('--card-ink').trim() || style.color || '#1D3339';
     [modal, guidebook].forEach((dialog) => {
       dialog.style.setProperty('--project-bg', background);
       dialog.style.setProperty('--project-ink', ink);

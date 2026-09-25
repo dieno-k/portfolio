@@ -1,9 +1,9 @@
 /* Visual Archive uses the existing project dialog and guidebook viewer. */
-.preview-modal.visual-gallery-mode { --project-bg: #D8D4CB; --project-ink: #08382F; }
-.visual-gallery-mode .project-modal-shell { display: block; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; padding: 64px 20px 80px; scrollbar-width: thin; scrollbar-color: #08382F #D8D4CB; }
+.preview-modal.visual-gallery-mode { --project-bg: #D8D4CB; --project-ink: #1D3339; }
+.visual-gallery-mode .project-modal-shell { display: block; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; padding: 64px 20px 80px; scrollbar-width: thin; scrollbar-color: #1D3339 #D8D4CB; }
 .visual-gallery-mode .project-modal-shell > :not(.project-modal-close):not(.visual-gallery) { display: none; }
-.visual-gallery-mode .project-modal-close { color: #08382F; }
-.visual-gallery { display: grid; grid-template-columns: repeat(15,minmax(0,1fr)); column-gap: var(--grid-gap); color: #08382F; }
+.visual-gallery-mode .project-modal-close { color: #1D3339; }
+.visual-gallery { display: grid; grid-template-columns: repeat(15,minmax(0,1fr)); column-gap: var(--grid-gap); color: #1D3339; }
 .visual-gallery[hidden] { display: none; }
 .visual-gallery-title { grid-column: 1 / -1; margin: 0; padding-right: 40px; font-size: 120px; font-weight: 400; line-height: 1; letter-spacing: -.055em; overflow-wrap: anywhere; }
 .visual-gallery-intro { grid-column: 10 / -1; margin-top: 72px; }
@@ -36,11 +36,11 @@
 .visual-artwork.is-pending { display: flex; flex-direction: column; justify-content: center; gap: 16px; border: 1px solid rgba(8,56,47,.2); background: rgba(8,56,47,.035); cursor: default; }
 .visual-artwork-label { font-size: 16px; }
 .visual-artwork-pending { font-family: var(--sans); font-size: 12px; }
-.visual-gallery-scrollbar { display: block; appearance: none; width: 100%; height: 20px; padding: 0; margin: 18px 0 0; background: transparent; color: #08382F; cursor: ew-resize; }
+.visual-gallery-scrollbar { display: block; appearance: none; width: 100%; height: 20px; padding: 0; margin: 18px 0 0; background: transparent; color: #1D3339; cursor: ew-resize; }
 .visual-gallery-scrollbar::-webkit-slider-runnable-track { height: 2px; background: rgba(8,56,47,.22); }
-.visual-gallery-scrollbar::-webkit-slider-thumb { appearance: none; width: clamp(40px,8vw,140px); height: 6px; margin-top: -2px; background: #08382F; border: 0; border-radius: 0; }
+.visual-gallery-scrollbar::-webkit-slider-thumb { appearance: none; width: clamp(40px,8vw,140px); height: 6px; margin-top: -2px; background: #1D3339; border: 0; border-radius: 0; }
 .visual-gallery-scrollbar::-moz-range-track { height: 2px; background: rgba(8,56,47,.22); }
-.visual-gallery-scrollbar::-moz-range-thumb { width: clamp(40px,8vw,140px); height: 6px; border: 0; border-radius: 0; background: #08382F; }
+.visual-gallery-scrollbar::-moz-range-thumb { width: clamp(40px,8vw,140px); height: 6px; border: 0; border-radius: 0; background: #1D3339; }
 .visual-banner-layout { display: grid; grid-template-columns: repeat(15,minmax(0,1fr)); gap: var(--grid-gap); }
 .visual-banner-column--web { grid-column: 1 / span 7; }
 .visual-banner-column--mobile { grid-column: 8 / -1; }
@@ -60,9 +60,9 @@
 .visual-package-item--mockup-b { grid-column: 7 / -1; grid-row: 3; }
 .visual-package-item .is-pending { aspect-ratio: 4 / 3; }
 .visual-gallery-top { grid-column: 13 / -1; justify-self: end; margin: 160px 0 0; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; font-size: 32px; white-space: nowrap; cursor: pointer; }
-.guidebook-modal.visual-lightbox { background: transparent; animation: none; color: #08382F; }
+.guidebook-modal.visual-lightbox { background: transparent; animation: none; color: #1D3339; }
 .guidebook-modal.visual-lightbox::backdrop { background: rgba(216,212,203,.55); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
-.visual-lightbox .guidebook-shell { background: transparent; color: #08382F; }
+.visual-lightbox .guidebook-shell { background: transparent; color: #1D3339; }
 .visual-lightbox .guidebook-slide { cursor: pointer; }
 .visual-lightbox .guidebook-fullscreen { display: none; }
 @media (max-width: 980px) {

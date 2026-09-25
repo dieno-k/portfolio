@@ -1,8 +1,8 @@
 :root {
   --paper: #F3F0E8;
-  --ink: #08382F;
+  --ink: #1D3339;
   --dark: #101512;
-  --primary: #08382F;
+  --primary: #1D3339;
   --carbon: var(--paper);
   --mineral: rgba(8, 56, 47, .055);
   --teal: var(--ink);
@@ -1351,7 +1351,7 @@ body { background: var(--paper); color: var(--primary); font-family: var(--displ
 .archive,
 .about {
   --section-surface: #F3F0E8;
-  --section-ink: #08382F;
+  --section-ink: #1D3339;
   --section-muted: rgba(8, 56, 47, .78);
   --section-border: rgba(8, 56, 47, .18);
   --section-faint: rgba(8, 56, 47, .07);
@@ -1427,7 +1427,7 @@ body { background: var(--paper); color: var(--primary); font-family: var(--displ
 .visual-archive-line--3 { text-align: center; transform: translate3d(30vw, 0, 0); }
 .visual-archive-link {
   --card-paper: #D8D4CB;
-  --card-ink: #08382F;
+  --card-ink: #1D3339;
   display: inline-block;
   vertical-align: top;
   max-width: none;
@@ -1575,7 +1575,7 @@ body { background: var(--paper); color: var(--primary); font-family: var(--displ
 }
 .contact,
 .site-footer {
-  --section-surface: #08382F;
+  --section-surface: #1D3339;
   --section-ink: #D8D4CB;
   --section-muted: rgba(216, 212, 203, .78);
   --section-border: rgba(216, 212, 203, .24);
@@ -1623,7 +1623,7 @@ body { background: var(--paper); color: var(--primary); font-family: var(--displ
   margin: 0;
   padding: 0;
   border: 0;
-  background: #08382F;
+  background: #1D3339;
   color: #D8D4CB;
   overflow: hidden;
   overscroll-behavior: contain;
